@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+body{
+    background-color:lightslategray;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+    }
+h2 {
+    border: 2px outset darkkhaki;
+    background-color: hsl(252, 24%, 30%);
+    border-radius: 10px;
+    opacity: 0.8;
+}
+/*Formatação do Menu*/
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative; /*ABSOLUTE: Fica estática no site*/
+    /*A posição também pode ser RELATIVE, ficando a mercê da formatação*/
+}
+
+nav#menu li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    background-color: darkgray;
+    padding: 10px; /*refere-se ao tamanho da caixa que o texto está envolto*/
+    margin: 10px; /*refere-se a distancia entre as caixas*/
+    transition: background-color 1s;
+    border-radius: 10px;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h3 {
+    display: none;
+}
+
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: #ffffff
+}
+footer#rodape {
+    clear: both;
+    text-align: center;
+}
